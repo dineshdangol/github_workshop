@@ -18,3 +18,8 @@ console.log('i am in routing branch')
 function addButton() {
     console.log('button added');
 }
+
+const divideNumber = (a,b) => {
+    return a/b;
+}
+

@@ -56,11 +56,14 @@
   git merge routing
   
 
+  git branch -M main
+  git push -u origin main
+  #equivalent to git push --set-upstream origin main
+  #this allows git push or git pull later
 
+  #without -u option you always need to specify remote branch
 
+  git push origin main
+  git pull origin main
 
-
-
-
-
-
+  git branch -vv
