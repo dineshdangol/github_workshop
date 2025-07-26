@@ -39,6 +39,21 @@
   git branch "routing"
   git branch
   git checkout "routing"
+  git add .
+  git commit -m "add() route"
+
+  git branch main
+
+  git checkout -b "feat/addButton"
+  git add .
+  git commit -m "Button added"
+
+  #main, routing and feat/addButton are not merged
+  #feat/addButton is ahead of routing
+  #routing is ahead of main
+  git checkout main
+  git diff routing
+  git merge routing
   
 
   git branch -M main
@@ -52,6 +67,10 @@
   git pull origin main
 
   git branch -vv
+
+
+
+
 
 
 
