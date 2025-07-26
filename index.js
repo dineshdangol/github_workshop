@@ -23,3 +23,7 @@ const divideNumber = (a,b) => {
     return a/b;
 }
 
+function function4() {
+    console.log('function 4');
+}
+
