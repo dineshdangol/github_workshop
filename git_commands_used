@@ -33,4 +33,15 @@
   git log
   git log --oneline
   git reset --hard HEAD-1
+  git reset --hard ae9d64f
+
+
+  git branch "routing"
+  git branch
+  git checkout "routing"
+  
+
+
+
+
 
