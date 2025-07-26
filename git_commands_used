@@ -20,5 +20,7 @@
   git add .
   git add *
   add extension git graph / git lens
-  
+  git diff 
+  git diff --staged
+  git commit -m "first commit"
 
