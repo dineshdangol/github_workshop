@@ -4,3 +4,7 @@ const c = 6;
 const addNumber = (a, b) => {
     return a + b;
 }
+
+const subtractNumber = (a, b) => {
+    return a - b;
+}
