@@ -14,3 +14,7 @@ const multiplyNumber = (a, b) => {
 }
 
 console.log('i am in routing branch')
+
+function addButton() {
+    console.log('button added');
+}
