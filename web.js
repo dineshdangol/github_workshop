@@ -1,1 +1,1 @@
-route 'contact.js'
+// route 'contact.js'
