@@ -60,6 +60,16 @@
   git push -u origin main
   #equivalent to git push --set-upstream origin main
   #this allows git push or git pull later
+<<<<<<< HEAD
+=======
+
+  #without -u option you always need to specify remote branch
+
+  git push origin main
+  git pull origin main
+
+  git branch -vv
+>>>>>>> 437d9b16b4b9d5eee563d136b4ccc0add3d35226
 
   #without -u option you always need to specify remote branch
 
