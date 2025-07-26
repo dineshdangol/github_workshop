@@ -48,6 +48,15 @@
   git add .
   git commit -m "Button added"
 
+  #main, routing and feat/addButton are not merged
+  #feat/addButton is ahead of routing
+  #routing is ahead of main
+  git checkout main
+  git diff routing
+  git merge routing
+  
+
+
 
 
 
