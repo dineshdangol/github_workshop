@@ -8,3 +8,8 @@ const addNumber = (a, b) => {
 const subtractNumber = (a, b) => {
     return a - b;
 }
+
+const multiplyNumber = (a, b) => {
+    return a * b;
+}
+

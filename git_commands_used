@@ -24,3 +24,13 @@
   git diff --staged
   git commit -m "first commit"
 
+  git add .
+  git commit -m "function to add 2 numbers"
+  got add .
+  git commit -m "function to subtract 2 numbers"
+  git add .
+  git commit -m "function to multiply 2 numbers"
+  git log
+  git log --oneline
+  git reset --hard HEAD-1
+
