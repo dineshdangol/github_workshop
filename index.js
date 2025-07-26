@@ -27,3 +27,7 @@ function function4() {
     console.log('function 4');
 }
 
+function function5() {
+    console.log('function 5');
+}
+
