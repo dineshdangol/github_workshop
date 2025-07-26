@@ -69,4 +69,14 @@
   git branch -vv
 
   git show <hash>
+
+  git checkout feat/addButton
+  git add .
+  git commit -m "function6 added"
+  git checkout main
+  git add .
+  git commit -m "git commands added"
+  git rebase feat/addButton
+  git log --oneline
   
+
